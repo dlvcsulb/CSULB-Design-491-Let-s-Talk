@@ -1,6 +1,6 @@
-# vuetifyapp
+# Basic Web front
 
-> vuetify app test
+> Simple web implementation using vuetify
 
 ## Build Setup
 
