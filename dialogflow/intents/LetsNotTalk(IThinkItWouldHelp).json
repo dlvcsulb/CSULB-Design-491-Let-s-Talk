@@ -1,0 +1,50 @@
+{
+  "id": "ccaa3fb1-cfb3-4b2e-8177-bca824a85b52",
+  "name": "LetsNotTalk(IThinkItWouldHelp)",
+  "auto": true,
+  "contexts": [
+    "Question1badNo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "LetsNotTalkYes",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "LetsNotTalkNo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8f0c33d2-f4c0-4f96-bb56-ffeda33e1038",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I really think it would help If we just talked a little..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896765,
+  "fallbackIntent": false,
+  "events": []
+}

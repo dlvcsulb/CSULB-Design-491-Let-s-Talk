@@ -1,0 +1,31 @@
+{
+  "id": "7ab641af-e4ed-410d-9fb4-f5869c747575",
+  "name": "LetsNotTalk - no(WorriedAboutYou)",
+  "auto": true,
+  "contexts": [
+    "LetsNotTalkNo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsNotTalk.LetsNotTalk-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m worried about you. Here are some nearby resources I found for you: Sorry, I was unable to determine your location. Please ensure your Location Services have been enabled."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896780,
+  "fallbackIntent": false,
+  "events": []
+}

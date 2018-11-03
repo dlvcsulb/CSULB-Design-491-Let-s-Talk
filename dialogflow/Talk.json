@@ -1,0 +1,42 @@
+{
+  "id": "eecff1bd-4f04-4302-8f94-880da0302720",
+  "name": "Talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Talk",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "TalkGood",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I would enjoy a conversation! How are you doing today?",
+            "Of course! How are you doing today?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525818398,
+  "fallbackIntent": false,
+  "events": []
+}

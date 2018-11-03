@@ -1,0 +1,50 @@
+[
+  {
+    "id": "449504e4-5870-48f4-af3d-7c7e738ecce1",
+    "data": [
+      {
+        "text": "can we talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525815790
+  },
+  {
+    "id": "045535e0-d605-49a0-a875-393f4052969c",
+    "data": [
+      {
+        "text": "i want to talk to someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525815790
+  },
+  {
+    "id": "99fc58bc-b6f6-48aa-a34e-ab044bc3fbe2",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525815790
+  },
+  {
+    "id": "5e2dcc35-9b5c-4510-be63-9cca1c882d6e",
+    "data": [
+      {
+        "text": "talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525815790
+  }
+]

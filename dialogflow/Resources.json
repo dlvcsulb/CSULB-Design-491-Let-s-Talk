@@ -1,0 +1,30 @@
+{
+  "id": "f8b36586-d4e8-4144-bbbc-637c543e4239",
+  "name": "Resources",
+  "auto": true,
+  "contexts": [
+    "RUSureNO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry. I couldn\u0027t determine your location. To use this feature, please make sure you\u0027ve enabled Location Services in your device settings menu."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525850581,
+  "fallbackIntent": false,
+  "events": []
+}
