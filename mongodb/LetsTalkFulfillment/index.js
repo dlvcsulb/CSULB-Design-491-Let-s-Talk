@@ -1,9 +1,16 @@
 'use strict'
 
-
+const {dialogflow} = require('actions-on-google')
+const https = require('https')
 var MongoClient = require('mongodb').MongoClient
-//MongoClient.setOption( { useNewUrlParser : true } )
 var dbUrl ='mongodb://jason:Cecs491!@ds147233.mlab.com:47233/heroku_04jtxgvj'
+
+const app = dialogflow({debug: true})
+
+//letstalkcsulb-wkmuwt
+//https.get('https://dialogflow.googleapis.com/v2/letstalkcsulb-wkmuwt=projects/*/agent/intents')
+
+//https://dialogflow.googleapis.com/v2/projects/letstalkcsulb-wkmuwt/agent/intents
 
 MongoClient.connect(dbUrl, function(err, db)
 {
