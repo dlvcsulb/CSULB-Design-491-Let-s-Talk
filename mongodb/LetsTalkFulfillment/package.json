@@ -1,0 +1,16 @@
+{
+  "name": "letstalkfulfillment",
+  "version": "1.0.0",
+  "description": "lets talk google action fulfillment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lets talk team",
+  "license": "ISC",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "mongoose": "^5.3.8"
+  }
+}
