@@ -1,0 +1,42 @@
+{
+  "id": "5010baf2-2701-4285-8b47-aebe457c2356",
+  "name": "ConversationLoopGood-No(ImAlwaysHere)",
+  "auto": true,
+  "contexts": [
+    "ConversationLoopGoodNo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "26eddfed-42a4-418a-934e-c70b352639e3",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027ll be here, if you need me!",
+            "I\u0027m always ready to chat."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896738,
+  "fallbackIntent": false,
+  "events": []
+}

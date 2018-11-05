@@ -1,0 +1,42 @@
+{
+  "id": "012c1db0-896f-4ce0-a1f9-22846835fc51",
+  "name": "ConversationLoopGood-Yes(AnyMoreToTalkAbout)",
+  "auto": true,
+  "contexts": [
+    "ConversationGoodYes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5215e227-83e4-4586-9aa8-50c72f2751ea",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What else is on your mind?",
+            "Is there something else you wish to talk about?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896753,
+  "fallbackIntent": false,
+  "events": []
+}

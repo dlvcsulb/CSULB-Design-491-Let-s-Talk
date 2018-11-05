@@ -1,0 +1,42 @@
+{
+  "id": "414e76f2-ff74-4703-a1f2-6212758c05c6",
+  "parentId": "6eb70f71-f31a-448c-ba3b-c9ceed63f1cf",
+  "rootParentId": "6eb70f71-f31a-448c-ba3b-c9ceed63f1cf",
+  "name": "RUSure-No - custom",
+  "auto": true,
+  "contexts": [
+    "RUSureNO",
+    "RUSure-No-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RUSure-No.RUSure-No-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be47d077-57b7-4511-a1bd-cb57f94a309f",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for sharing. I hope this makes you feel a bit better."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525828309,
+  "fallbackIntent": false,
+  "events": []
+}

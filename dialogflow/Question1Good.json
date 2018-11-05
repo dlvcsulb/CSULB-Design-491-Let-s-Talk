@@ -1,0 +1,45 @@
+{
+  "id": "cb6e1585-337b-4b61-b478-b648cf1c0744",
+  "name": "Question1Good",
+  "auto": true,
+  "contexts": [
+    "TalkGood"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Question1Good",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4f4dc7b9-6bf1-4e81-9195-7dc88695922a",
+          "required": false,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "That\u0027s great news! Would you like to talk about your day?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525824446,
+  "fallbackIntent": false,
+  "events": []
+}

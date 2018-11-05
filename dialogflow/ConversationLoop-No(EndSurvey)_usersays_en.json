@@ -1,0 +1,138 @@
+[
+  {
+    "id": "efac6db8-6745-42d7-a9bb-8f601aac68fd",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      },
+      {
+        "text": " right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525896030
+  },
+  {
+    "id": "a5dd88cd-167b-44da-ba37-6d4dda2519d5",
+    "data": [
+      {
+        "text": "not",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      },
+      {
+        "text": " right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525895643
+  },
+  {
+    "id": "be73316b-1052-439a-ac9d-e1577050a205",
+    "data": [
+      {
+        "text": "not",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525895643
+  },
+  {
+    "id": "04d0c9f8-b2bb-4c6c-8891-7904d4bf771a",
+    "data": [
+      {
+        "text": "no",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "not",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525896030
+  },
+  {
+    "id": "bed9b2ab-deab-4d70-897b-383fa2d9ccc2",
+    "data": [
+      {
+        "text": "nope",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525895643
+  },
+  {
+    "id": "9cae2e60-7863-443b-a51b-c5a51c893865",
+    "data": [
+      {
+        "text": "no",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": true
+      },
+      {
+        "text": " thank you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525895643
+  },
+  {
+    "id": "6a539a23-08c3-4796-9aa0-46540fb90499",
+    "data": [
+      {
+        "text": "no",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525895643
+  }
+]

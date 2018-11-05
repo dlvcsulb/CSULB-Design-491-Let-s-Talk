@@ -1,0 +1,16 @@
+[
+  {
+    "id": "d3b44be8-cd92-429a-9d53-a5540df5102b",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525660253
+  }
+]

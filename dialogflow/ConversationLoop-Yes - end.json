@@ -1,0 +1,42 @@
+{
+  "id": "dea8399b-2fad-4ef3-93cf-7af5d87ba1ea",
+  "parentId": "ddd0b3da-8b23-42b7-b42e-b5f0e9bc4860",
+  "rootParentId": "ddd0b3da-8b23-42b7-b42e-b5f0e9bc4860",
+  "name": "ConversationLoop-Yes - end",
+  "auto": true,
+  "contexts": [
+    "ConversationLoop-Yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ConversationLoop-Yes.ConversationLoop-Yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d359184b-17dc-4fe7-bb2f-232f58e7d0b3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for taking the time to talk with me."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525839150,
+  "fallbackIntent": false,
+  "events": []
+}

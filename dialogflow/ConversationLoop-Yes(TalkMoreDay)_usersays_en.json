@@ -1,0 +1,44 @@
+[
+  {
+    "id": "56997eb4-e6e0-4db7-b569-4bc98799ab55",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525839065
+  },
+  {
+    "id": "c5e11f2a-be2f-4ccb-882f-f33ba26c2e7f",
+    "data": [
+      {
+        "text": "sure",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525896698
+  },
+  {
+    "id": "548d6e2b-c348-4edd-983c-e13c1088ead2",
+    "data": [
+      {
+        "text": "yeah",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525896698
+  }
+]

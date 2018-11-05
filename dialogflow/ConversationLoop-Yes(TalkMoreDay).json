@@ -1,0 +1,48 @@
+{
+  "id": "ddd0b3da-8b23-42b7-b42e-b5f0e9bc4860",
+  "name": "ConversationLoop-Yes(TalkMoreDay)",
+  "auto": true,
+  "contexts": [
+    "ConversationLoopYes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ConversationLoop-Yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "01ebec29-4a73-4aa6-a0b9-d8616de9a79a",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m all ears.",
+            "Go ahead, I\u0027m listening."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896698,
+  "fallbackIntent": false,
+  "events": []
+}

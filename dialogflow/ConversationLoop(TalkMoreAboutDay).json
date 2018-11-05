@@ -1,0 +1,53 @@
+{
+  "id": "7e99e875-f037-4247-930f-241f4255a1bf",
+  "name": "ConversationLoop(TalkMoreAboutDay)",
+  "auto": true,
+  "contexts": [
+    "LetsTalk"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ConversationLoopNo",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ConversationLoopYes",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "03e6fcf0-0eb7-42da-b55b-cdb3baba9d8d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Is there anything else you want to talk about?",
+            "Would you like to share anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896677,
+  "fallbackIntent": false,
+  "events": []
+}

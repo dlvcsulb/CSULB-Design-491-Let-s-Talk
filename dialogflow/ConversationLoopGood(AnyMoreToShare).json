@@ -1,0 +1,54 @@
+{
+  "id": "c5a04cc8-238d-458d-886d-1ca2a4b4321d",
+  "name": "ConversationLoopGood(AnyMoreToShare)",
+  "auto": true,
+  "contexts": [
+    "LetsTalkGood"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ConversationLoopGoodYes",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ConversationLoopGoodNo",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d746d109-7cb5-4e04-9a96-d6182034a95d",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Understood. Is there anything else you would like to share?",
+            "Thank you for sharing. Do you have anything else on your mind?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896713,
+  "fallbackIntent": false,
+  "events": []
+}

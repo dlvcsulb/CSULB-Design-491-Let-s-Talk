@@ -1,0 +1,55 @@
+{
+  "id": "5a2c7714-31bb-4f0a-a19d-303e0cb249e4",
+  "name": "Question2bad",
+  "auto": true,
+  "contexts": [
+    "Talk"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Question2bad",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "88242314-98ea-4144-949b-e7daec386fa0",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "this is a test"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Is there something bothering you?",
+            "Have you been having a hard time lately?",
+            "Has something been distracting you recently?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525850546,
+  "fallbackIntent": false,
+  "events": []
+}

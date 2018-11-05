@@ -1,0 +1,53 @@
+{
+  "id": "6eb70f71-f31a-448c-ba3b-c9ceed63f1cf",
+  "name": "RUSure-No",
+  "auto": true,
+  "contexts": [
+    "LetsNotTalkYes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RUSureNO",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "RUSure-No-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1c8b85b3-d3c2-43c5-9302-274c3a28cbeb",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Talk about anything you want.",
+            "Please, speak your mind."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525850608,
+  "fallbackIntent": false,
+  "events": []
+}

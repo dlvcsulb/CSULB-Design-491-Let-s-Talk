@@ -1,0 +1,58 @@
+[
+  {
+    "id": "34415cb6-8626-47dc-803a-454fc4067422",
+    "data": [
+      {
+        "text": "great",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525824446
+  },
+  {
+    "id": "87fd3769-9fed-460b-a788-84caf7eb5530",
+    "data": [
+      {
+        "text": "good",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525824446
+  },
+  {
+    "id": "f9d2c192-2172-4d22-a820-73685bd7a96d",
+    "data": [
+      {
+        "text": "not so bad",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525824446
+  },
+  {
+    "id": "a7557c83-d45d-44d8-8c0c-e99bd95b6b78",
+    "data": [
+      {
+        "text": "ok",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525824446
+  }
+]

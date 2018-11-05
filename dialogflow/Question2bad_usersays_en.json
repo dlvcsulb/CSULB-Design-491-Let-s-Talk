@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a6c7f437-9e94-4305-a96c-c5c04cd77a4e",
+    "data": [
+      {
+        "text": "can we do something else",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525816944
+  },
+  {
+    "id": "db5338dd-9822-478b-bfa9-45b85c668e43",
+    "data": [
+      {
+        "text": "not really",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525816944
+  },
+  {
+    "id": "c39c64ef-f348-4e33-a99e-7dd39ddabb6d",
+    "data": [
+      {
+        "text": "bad",
+        "alias": "SurveyAnswers",
+        "meta": "@SurveyAnswers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525816944
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "7c6d84f2-5dd9-493a-a44c-d12517047fe2",
+  "name": "ConversationLoop-No(EndSurvey)",
+  "auto": true,
+  "contexts": [
+    "ConversationLoopNo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "db8d1193-faf7-41bd-aade-3aa2e7b92ab4",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m always here if you need me.",
+            "OK. Feel free to let me know if you change your mind.",
+            "I understand. I\u0027m here to listen if you change your mind."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896664,
+  "fallbackIntent": false,
+  "events": []
+}

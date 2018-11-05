@@ -1,0 +1,60 @@
+{
+  "id": "7ddb7bc9-c92a-4dca-a1a2-4c5d56580d67",
+  "name": "Question1bad(WouldYouLikeToTalkAboutDay)",
+  "auto": true,
+  "contexts": [
+    "Question2bad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Question1bad",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Question1badNo",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ba8e8e6e-a2c1-41f2-a8ab-0e3a9cf312fc",
+          "required": true,
+          "dataType": "@SurveyAnswers",
+          "name": "SurveyAnswers",
+          "value": "$SurveyAnswers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "this is a test"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Would you like to talk about your day?",
+            "Would you like to talk about anything?",
+            "Do you want to tell me about your day?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525896835,
+  "fallbackIntent": false,
+  "events": []
+}
