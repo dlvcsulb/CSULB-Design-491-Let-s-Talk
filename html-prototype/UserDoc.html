@@ -1,0 +1,496 @@
+
+
+<!doctype html>
+<html>
+<head>
+	<meta name="referrer" content="no-referrer">
+    <title>Let's Talk CSULB - User Documentation</title>
+    <style>
+
+        @-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+        @-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+        @-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+        @keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+
+        #deferred-styles {
+            display: none;
+        }
+
+        body {
+            background-color: #f4f5f5 !important;
+            font-family: Roboto, "Helvetica Neue", sans-serif;
+            font-weight: 300;
+        }
+
+        h1 {
+            font-weight: 300;
+            padding: 0;
+        }
+
+        #main h2 {
+            margin-top: 25px;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 0;
+            display: block; /* Fallback for non-webkit */
+            display: -webkit-box;
+            max-height: 258px; /* Fallback for non-webkit */
+            line-height: 2.3;
+            -webkit-line-clamp: 8;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        #wrapper {
+            display: none;
+            min-height: 100%;
+            margin-bottom: auto;
+        }
+
+        #main {
+            padding-bottom:100px;
+            margin: 20px auto 0 auto;
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .b_frame {
+            -webkit-box-shadow: 0px 19px 147px -41px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 19px 147px -41px rgba(0,0,0,0.75);
+            box-shadow: 0px 19px 147px -41px rgba(0,0,0,0.75);
+            border: 0;
+            width: 400px;
+            height: 530px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+        .col-md-6 {
+            margin-top: 30px;
+            padding: 0;
+        }
+
+
+        .b_integrations_agent_links {
+            margin-top: 50px;
+        }
+        .b_integrations_agent_links a {
+            color: black;
+            margin-right: 30px;
+        }
+        .b_integrations_agent_links a i {
+            color: gray;
+            margin-right: 10px;
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+        }
+
+        #shareModal .modal-body {
+            text-align: center;
+        }
+
+        footer#footer {
+            background-color: white;
+            text-align: center;
+
+            position: relative;
+            margin-top: -81px; /* negative value of footer height */
+            height: 80px;
+            clear:both;
+        }
+
+        .b-agent-demo_powered_by {
+
+        }
+
+        .b-agent-demo_powered_by a {
+            display: inline-block;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-decoration: none;
+        }
+
+        .b-agent-demo_powered_by span {
+            display: inline-block;
+            color: #B7BBC4;
+            text-transform: uppercase;
+            line-height: 20px;
+        }
+        .b-agent-demo_powered_by img {
+            display: inline-block;
+            height: 20px;
+            margin-left: 20px;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+
+        // redirect to mobile version
+
+        /**
+         * definitely not the best way to findout if there is a mobile browser
+         * @returns {any}
+         */
+        function deviceOS() {
+            var useragent = navigator.userAgent;
+            if(useragent.match(/Android/i)) {
+                return 'android';
+            } else if(useragent.match(/webOS/i)) {
+                return 'webos';
+            } else if(useragent.match(/iPhone/i)) {
+                return 'iphone';
+            } else if(useragent.match(/iPod/i)) {
+                return 'ipod';
+            } else if(useragent.match(/iPad/i)) {
+                return 'ipad';
+            } else if(useragent.match(/Windows Phone/i)) {
+                return 'windows phone';
+            } else if(useragent.match(/SymbianOS/i)) {
+                return 'symbian';
+            } else if(useragent.match(/RIM/i) || useragent.match(/BB/i)) {
+                return 'blackberry';
+            } else {
+                return false;
+            }
+        }
+
+    </script>
+
+    <meta property="og:title" content="Lets Talk CSULB"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:locale" content="en"/>
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/png" href="lets-talk-final-logo.png">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="website white">
+
+<div id="preloader">
+    <div class="logo"></div>
+</div>
+
+<div id="wrapper" >
+    <header id="header">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                            <li><a href="website.html" target="_blank">Home<span></span></a></li>
+                            <li><a href="devGuide.html" target="_blank">Developer Guidelines<span></span></a></li>
+                            <li><a href="UserDoc.html" target="_blank">User Manual<span></span></a></li>
+                    </ul>
+
+                     <!--
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="sign-up"><a href="https://csulb.edu">LOG IN</a></li>
+                    </ul>
+                    -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="main" class="container">
+
+
+        <div class="row">
+                <head>
+                        <title> Let's Talk </title>
+                        </head>
+                                  
+                        <A NAME="Top"></A>
+                        <h1><strong>User Manual</strong></h1>
+                        <strong>About Let's Talk</strong><br/>
+                            <p style="margin-left: 20px">
+                                Let's Talk is an action for the Google Home device that users can utilize to screen for depression. Uses the Google API.ai which allows users to interact with their device through voice or text-based conversations powered by AI.
+                            </p>
+                    
+                        <strong>Features</strong><br/>
+                        <ol type="I">
+                        <li>
+                            Utilizes surveys to help determine the user’s mental state.
+                        </li>
+                            <p style="margin-left: 20px">
+                                insert feature description here
+                            </p>
+                        <li>
+                            Allows users to have interactive conversations powered by AI.
+                        </li>
+                            <p style="margin-left: 20px">
+                                insert feature description here
+                            </p>
+                        </ol>
+                    
+                        <strong>Patients</strong>	
+                        <br/><A HREF="#Install">Click here to learn how to install.</A>
+                        <br/><A HREF="#Enter">Click here to learn how to enter the application.</A>
+                        <br/><A HREF="#Initialize">Click here to learn how to initialize the survey.</A>
+                        <br/><A HREF="#Medical">Click here to learn how to receive medical reminders.</A>
+                        <br/><A HREF="#Exit">Click here to learn how to exit.</A>
+                        
+                        <ol type="I">
+                        <A NAME="Install"></A>
+                        <li>Installation</li>
+                            <ol type="A">
+                            <li>Log in</li>
+                                <p style="margin-left: 20px">
+                                    You may not recall registering for an account before using Let’s Talk, and that’s how it should be! Logging in is a seamless process that occurs automatically when you use your Google Assistant device. Let’s Talk utilizes your Google Account for authentication - the same one that you used to set up your devices, which means that you have one less login to remember, and your data is securely backed up across all your devices. This allows you to start at home, and be able to pick up on any other Google Assistant device where you left off!
+                                </p>
+                            <li>Setup</li>
+                                <p style="margin-left: 20px">
+                                    Let’s Talk is an Action available on all Google Assistant platforms, compatible with the following types of Google Assistant-enabled devices: Google Home & smart speakers, Android 5.0+ phones, Android 6.0+ tablets, Android 6.0+ TVs, Chrome OS devices (Chromebook and Chromebox), iOS 9.0+ phones, and headphones.
+                                    <br/><br/>Setup is an extremely easy task. Follow these simple instructions to get started:
+                                <ol type="1">
+                                <li> 
+                                    Open the Home app on the device you wish to install the program on. 
+                                    <p style="margin-left: 20px">
+                                        NOTE: If the Home app is not installed, it is available on the iOS App Store and Google Play Store. If you wish to install it on a device without a screen, such as a smart speaker, you will need to use the device which you set it up with.
+                                    </p>
+                                </li>
+                                <li> 
+                                    <p>
+                                        Open the side menu by swiping right from the left edge of the screen, or tapping the three stacked lines at the top of the screen.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                            Open the Explore option from the menu.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using the search box, enter “Let's Talk Action”.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tap the option for the action.		
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Select “TRY IT” by the action icon.
+                                    </p>
+                                </li>
+                                </ol>
+                            </p>
+                            </ol>
+                    
+                        <A NAME="Enter"></A>
+                        <li>Entering the Application</li>
+                            <p style="margin-left: 20px">
+                                To enter the program, follow these simple instructions:
+                                <ol type="1">
+                                <li> 
+                                    Open the Google Assistant. 
+                                    <p style="margin-left: 20px">
+                                        NOTE: Refer to your device’s manual for instructions on how to access Google Assistant. These instructions vary by device type and manufacturer. 
+                                    </p>
+                                </li>
+                                <li> 
+                                    <p>
+                                        Ask the Google Assistant one of the following phrases:
+                                        <ul style="list-style-type:disc">
+                                        <li>
+                                            <p>
+                                                Ask Let's Talk
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Can I talk to Let's Talk
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Let me speak to Let's Talk
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Speak to Let's Talk
+                                            </p>
+                                        </li>
+                                        </ul>
+                                    </p>
+                                </li>
+                                </ol>
+                                <p>
+                                    The program will now begin speaking.
+                                </p>
+                            </p>
+                    
+                        <A NAME="Initialize"></A>
+                        <li>Initializing the survey</li>
+                            <p style="margin-left: 20px">
+                                To begin the survey, follow these simple instructions:	
+                            <ol type="1">
+                            <li> 
+                                Launch the application (see Entering the Application
+                            </li>
+                            <li> 
+                                <p>
+                                    Ask the Google Assistant one of the following phrases:
+                                    <ul style="list-style-type:disc">
+                                    <li>
+                                        <p>
+                                            Begin survey
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Start questionnaire
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Ask me how I’m doing
+                                            </p>
+                                    </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li> 
+                                Follow the Assistant’s instructions and respond to questions as prompted.
+                            </li>
+                            </ol>
+                            </p>
+                    
+                        <A NAME="Medical"></A>
+                        <li>Receiving Medication Reminders</li>
+                            <p style="margin-left: 20px">
+                                Let’s Talk automatically reminds you to take your medications upon finishing your survey! However, there may be times where you may wish to find out what to take, but don’t want to complete a survey.
+                                <br/><br/>In order to take full advantage of this feature, speak to your medical provider to input your prescription information into the system.
+                                <br/><br/>To see any medication reminders you have pending, follow these simple instructions:
+                            <ol type="1">
+                            <li> 
+                                Launch the application (see Entering the Application)
+                            </li>
+                            <li> 
+                                <p>
+                                    Ask the Google Assistant one of the following phrases:
+                                    <ul style="list-style-type:disc">
+                                    <li>
+                                        <p>
+                                            Do I have any medications to take?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            What prescriptions am I supposed to take?
+                                        </p>
+                                    </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li> 
+                                The Assistant responds with any medication your doctor has prescribed you.
+                            </li>
+                            </ol>
+                            </p>
+                    
+                        <A NAME="Exit"></A>
+                        <li>Exiting the Application</li>
+                            <p style="margin-left: 20px">
+                                Let’s Talk is able to take advantage of Google Assistant’s natural language, and utilizes the same basic phrases in other Actions you’ve come to enjoy.
+                                <br/><br/>When you are finished using the program or wish to end the program, use one of the following phrases:	
+                            <ul style="list-style-type:disc">
+                            <li> 
+                                Exit
+                            </li>
+                            <li> 
+                                Cancel
+                            </li>
+                            <li> 
+                                Stop
+                            </li>
+                            <li> 
+                                Nevermind
+                            </li>
+                            <li> 
+                                Goodbye
+                            </li>
+                            </ul>
+                            </p>
+                        </ol>
+                        </body>
+                       
+                        <center><A HREF="#Top">Click here to go back to the top of the page.</A></center>
+
+        </div>
+
+        <div class="modal fade" tabindex="-1" id="embedModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Use following code to integrate this agent into your site:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <pre>&lt;iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/73f17e31-c617-4113-8006-9aa0cd53432e"&gt;&lt;/iframe&gt;</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<noscript id="deferred-styles">
+    <link href='https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='LetsTalk.css' rel='stylesheet' type='text/css'>
+</noscript>
+<script>
+    // non-blocking CSS delivery
+    var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement);
+        addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+    if (raf) {
+        raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+    } else {
+        window.addEventListener('load', loadDeferredStyles);
+    }
+</script>
+
+<!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-50971730-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
