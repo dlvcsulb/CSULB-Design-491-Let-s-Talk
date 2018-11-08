@@ -1,3 +1,5 @@
+# Notes from Jason - Check the files in the src folder
+
 # Basic Web front
 
 > Simple web implementation using vuetify
