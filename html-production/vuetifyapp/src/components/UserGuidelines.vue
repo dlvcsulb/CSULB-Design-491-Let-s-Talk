@@ -3,12 +3,12 @@
     <v-layout column align-center>
       <v-flex>
 
-        <h1 align="center">Let's Talk User Manual</h1>
+        <h1 align="center">Let's Talk Journaling User Manual</h1>
         <br>
         <h2 align="center"><u>Menu</u></h2>
           <a HREF="#Install">I. Installation</a>
         	<br/><a href="#Enter">II. Entering the Application</a>
-        	<br/><a href="#Initialize">III. Initializing the Survey</a>
+        	<br/><a href="#Initialize">III. Initializing the Conversation</a>
         	<br/><a href="#Medical">IV. Receiving Medical Reminders</a>
         	<br/><a href="#Exit">V. Exiting the Application</a>
           <br><br><br>
@@ -21,11 +21,11 @@
         		<ol type="A">
         		<strong><li>Log in</li></strong>
         			<p>
-        				You may not recall registering for an account before using Let’s Talk, and that’s how it should be! Logging in is a seamless process that occurs automatically when you use your Google Assistant device. Let’s Talk utilizes your Google Account for authentication - the same one that you used to set up your devices, which means that you have one less login to remember, and your data is securely backed up across all your devices. This allows you to start at home, and be able to pick up on any other Google Assistant device where you left off!
+        				You may not recall registering for an account before using Let’s Talk Journaling, and that’s how it should be! Logging in is a seamless process that occurs automatically when you use your Google Assistant device. Let’s Talk Journaling utilizes your Google Account for authentication - the same one that you used to set up your devices, which means that you have one less login to remember, and your data is securely backed up across all your devices. This allows you to start at home, and be able to pick up on any other Google Assistant device where you left off!
         			</p>
         		<strong><li>Setup</li></strong>
         			<p>
-        				Let’s Talk is an Action available on all Google Assistant platforms, compatible with the following types of Google Assistant-enabled devices: Google Home & smart speakers, Android 5.0+ phones, Android 6.0+ tablets, Android 6.0+ TVs, Chrome OS devices (Chromebook and Chromebox), iOS 9.0+ phones, and headphones.
+        				Let’s Talk Journaling is an Action available on all Google Assistant platforms, compatible with the following types of Google Assistant-enabled devices: Google Home & smart speakers, Android 5.0+ phones, Android 6.0+ tablets, Android 6.0+ TVs, Chrome OS devices (Chromebook and Chromebox), iOS 9.0+ phones, and headphones.
         				<br/><br/>Setup is an extremely easy task. Follow these simple instructions to get started:
 
               <ol type="1">
@@ -45,7 +45,7 @@
         			</li>
               <br>
         			<li class="directions">
-        				Using the search box, enter “Let's Talk”.
+        				Using the search box, enter “Let's Talk Journaling”.
                 <br>
         				<img src="@/assets/search.png" alt="Search" style="width:250px;height:500px; border:2px solid black">
         			</li>
@@ -69,7 +69,7 @@
         		<strong><li>Entering the Application</li></strong>
             <br>
         			<p>
-        					Once Let’s Talk has been connected to your Google Assistant, entering and using the system is incredibly simple! You won’t see an app icon on your device because it is launched through the Assistant.
+        					Once Let’s Talk Journaling has been connected to your Google Assistant, entering and using the system is incredibly simple! You won’t see an app icon on your device because it is launched through the Assistant.
         					<br><br>
         				To enter the program, follow these simple instructions:
         			<ol type="1">
@@ -86,7 +86,7 @@
         					Ask the Google Assistant one of the following phrases:
         					<ul style="list-style-type:disc">
         					<li>
-        						Ask Let's Talk
+        						Ask Let's Talk 
         					</li>
         					<li>
         						Can I talk to Let's Talk
@@ -112,7 +112,7 @@
         		<a name="Initialize"></a>
         		<strong><li>Initializing the Survey</li></strong>
         			<p>
-        				Let’s Talk is centered on being able to speak to you and make you feel better! The built-in survey asks you questions sourced from medical professionals across the world to aid you in your journey to brighter days.
+        				Let’s Talk Journaling is centered on being able to speak to you and make you feel better! The built-in survey asks you questions sourced from medical professionals across the world to aid you in your journey to brighter days.
         				<br><br>
         			<strong>To begin the survey, follow these simple instructions:</strong>
               </p>
