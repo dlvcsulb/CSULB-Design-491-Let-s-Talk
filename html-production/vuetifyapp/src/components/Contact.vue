@@ -7,10 +7,10 @@
         <h2><strong>csulbletstalk@gmail.com</strong></h2>
         <br>
         <h3>
-        <a href="https://www.github.com/dlvcsulb">Dennis Vu</a><br>
+        Dennis Vu<br>
 				Alex Vu<br>
 				Mark Saavedra<br>
-				<a href="https://www.github.com/jasonjyk">Jason Kim</a><br>
+				Jason Kim<br>
         </h3>
       </v-flex>
     </v-layout>
