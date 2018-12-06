@@ -1,3 +1,3 @@
 ### HTML PRODUCTION CODE
 
-Written with Vuetify. Current maintainer: Jason
+Written with Vuetify. Current maintainer: Alex and Jason
