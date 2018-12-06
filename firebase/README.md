@@ -1,4 +1,4 @@
 ## Firebase implementation for Let's Talk Journaling
 
-### For code, check /firebase/firebase/functions/index.js
+### For code and packages used, check /firebase/firebase/functions/*
 Maintained by Jason Kim
