@@ -4,7 +4,7 @@
       <v-flex>
         <h1 align="center">About Let's Talk</h1>
           <p>
-            <br>Let’s Talk is an Action for the Google Assistant that users can utilize to screen for depression.
+            <br>Let’s Talk Journaling is an Action for the Google Assistant that users can utilize to screen for depression.
             The program uses the Google Dialogflow programming interface, which allows users to interact with their device through voice or
             text-based conversations powered by the Google AI and neural network.
             <br><br><br>
@@ -13,15 +13,8 @@
         <h2 align="center"><u>Features</u></h2>
         <ul><br>
         <li>
-          Utilizes surveys to help determine the user’s mental state.
+          Utilizes conversations to alleviate users sad mood.
         </li>
-          <p><br>
-            Maintained by researchers around the world.
-          </p>
-          <p>
-            Privately accessible between medical professionals and their patients.
-          </p>
-          <br>
         <li>
           Allows users to have interactive conversations powered by AI.
         </li>
