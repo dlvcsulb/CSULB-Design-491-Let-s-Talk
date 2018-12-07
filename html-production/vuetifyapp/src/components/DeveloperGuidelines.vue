@@ -42,9 +42,8 @@
         <br><br><br>
 
         <a name="Contribute"></a>
-        <strong><li>Receiving Medication Reminders</li></strong>
+        <strong><li>Contribute</li></strong>
           <p>
-            The core of Let's Talk Journaling resides on DialogFlow, where all the intents and triggers are managed from within its web interface. Additionally the Firebase database is contained on the web portal for its service as well. <br>
               If you would like to contribute to the project, please visit the project page for the latest documentation and source codes.
           </p>
         <a href="#Top">Back to top</a>
