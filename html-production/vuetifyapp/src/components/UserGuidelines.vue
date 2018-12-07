@@ -9,8 +9,7 @@
           <a HREF="#Install">I. Installation</a>
         	<br/><a href="#Enter">II. Entering the Application</a>
         	<br/><a href="#Initialize">III. Initializing the Conversation</a>
-        	<br/><a href="#Medical">IV. Receiving Medical Reminders</a>
-        	<br/><a href="#Exit">V. Exiting the Application</a>
+        	<br/><a href="#Exit">IV. Exiting the Application</a>
           <br><br><br>
 
         	<ol type="I">
@@ -86,16 +85,16 @@
         					Ask the Google Assistant one of the following phrases:
         					<ul style="list-style-type:disc">
         					<li>
-        						Ask Let's Talk 
+        						Ask Let's Talk Journaling 
         					</li>
         					<li>
-        						Can I talk to Let's Talk
+        						Can I talk to Let's Talk Journaling
         					</li>
         					<li>
-        						Let me speak to Let's Talk
+        						Let me speak to Let's Talk Journaling
         					</li>
         					<li>
-        						Speak to Let's Talk
+        						Speak to Let's Talk Journaling
         					</li>
         					</ul>
                   <br>
@@ -121,20 +120,6 @@
         			Launch the application (see <a href=#Enter>Entering the Application</a>).<br>
         			<img src="@/assets/assistantmain.png" alt="Assistant" style="width:250px;height:500px; border:2px solid black">
         		</li>
-        		<li class="directions">
-        				Ask the Google Assistant one of the following phrases:
-        				<ul style="list-style-type:disc">
-        				<li class="directions">
-        						Begin survey
-        				</li>
-        				<li class="directions">
-        						Start questionnaire
-        				</li>
-        				<li class="directions">
-        						Ask me how I’m doing
-        				</li>
-        				</ul>
-        		</li>
             <br>
         		<li class="directions">
         			Follow the Assistant’s instructions and respond to questions as prompted.
@@ -145,44 +130,10 @@
         		<a href="#Top">Back to top</a>
             <br><br><br>
 
-        		<a name="Medical"></a>
-        		<strong><li>Receiving Medication Reminders</li></strong><br>
-            <p>
-        			Let’s Talk automatically reminds you to take your medications upon finishing your survey! However, there may be times where you may wish to find out what to take, but don’t want to complete a survey.
-        			<br><br>In order to take full advantage of this feature, speak to your medical provider to input your prescription information into the system.
-        			<br><br>To see any medication reminders you have pending, follow these simple instructions:
-            </p>
-            <ol type="1">
-        		<li class="directions">
-        			Launch the application (see <a href=#Enter>Entering the Application</a>).<br>
-        			<img src="@/assets/assistantmain.png" alt="Assistant" style="width:250px;height:500px; border:2px solid black">
-        		</li>
-            <br>
-        		<li class="directions">
-        			Ask the Google Assistant one of the following phrases:
-        			<ul style="list-style-type:disc">
-        			<li class="directions">
-        					Do I have any medications to take?
-        			</li>
-        			<li class="directions">
-        					What prescriptions am I supposed to take?
-        			</li>
-        			</ul>
-        		</li>
-            <br>
-        		<li class="directions">
-        			The Assistant responds with any medication your doctor has prescribed you.
-        		</li>
-        		</ol>
-            <br>
-            <br>
-        		<a href="#Top">Back to top</a>
-            <br><br><br>
-
         		<a name="Exit"></a>
         		<strong><li>Exiting the Application</li></strong>
             <br>
-        				Let’s Talk is able to take advantage of Google Assistant’s natural language, and utilizes the same basic phrases in other Actions you’ve come to enjoy.
+        				Let’s Talk Journaling is able to take advantage of Google Assistant’s natural language, and utilizes the same basic phrases in other Actions you’ve come to enjoy.
         				<br/><br/>When you are finished using the program or wish to end the program, use one of the following phrases:
 
             <ul style="list-style-type:disc">
