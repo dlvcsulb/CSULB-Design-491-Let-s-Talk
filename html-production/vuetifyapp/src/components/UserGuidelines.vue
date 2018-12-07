@@ -109,11 +109,11 @@
             <br><br><br>
 
         		<a name="Initialize"></a>
-        		<strong><li>Initializing the Survey</li></strong>
+        		<strong><li>Initializing the Conversation</li></strong>
         			<p>
-        				Let’s Talk Journaling is centered on being able to speak to you and make you feel better! The built-in survey asks you questions sourced from medical professionals across the world to aid you in your journey to brighter days.
+        				Let’s Talk Journaling is centered on being able to speak to you and make you feel better! You can freely talk to the app and it will listen to everything that you have to say. It will also save your conversations much like a diary so that you can come back to your days and see your feeling for the day as well as what you had to say that day. 
         				<br><br>
-        			<strong>To begin the survey, follow these simple instructions:</strong>
+        			<strong>To begin the conversation, follow these simple instructions:</strong>
               </p>
         		<ol type="1">
         		<li class="directions">
