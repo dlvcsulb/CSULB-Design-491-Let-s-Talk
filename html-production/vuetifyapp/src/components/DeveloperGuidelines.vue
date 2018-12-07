@@ -24,7 +24,7 @@
         <A NAME="Install"></A>
         <strong><li>Installation</li></strong>
         <p>
-            To use Let's Talk Journaling, users do not have to install any dedicated applications. However, they will need to link the Action to their Google Assistant. They may invoke the action by explicitedly calling the action name such as "Ok Google, talk to <strong>Let's Talk Journaling</strong> to <strong>start the conversation</strong>".
+            To use Let's Talk Journaling, users do not have to install any dedicated applications. However, they will need to link the Action to their Google Assistant. They may invoke the action by explicitedly calling the action name such as "Ok Google, talk to <strong>Let's Talk Journaling</strong>" to start the conversation.
         </p>
 
         <a href="#Top">Back to top</a>

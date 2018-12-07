@@ -31,7 +31,7 @@
   export default {
     data () {
       return {
-        appTitle: "LET'S TALK GOOGLE HOME",
+        appTitle: "LET'S TALK JOURNALING",
         sidebar: false,
         menuItems: [
           {
