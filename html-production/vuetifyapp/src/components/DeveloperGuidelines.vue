@@ -33,7 +33,7 @@
         <a name="Components"></a>
         <strong><li>Components and Dependencies</li></strong>
           <p>
-            Let's Talk journaling is built from the ground up using tools with artificial intelligence in mind. At the core of the program lies <a href="https://dialogflow.com">DialogFlow</a>, which is Google's programming interface for conversational AI. Due to its incorporation of Google's Machine learning algorithms and optimization for the Google Assistant, it is the clear choice for an application of this scale.
+            Let's Talk Journaling is built from the ground up using tools with artificial intelligence in mind. At the core of the program lies <a href="https://dialogflow.com">DialogFlow</a>, which is Google's programming interface for conversational AI. Due to its incorporation of Google's Machine learning algorithms and optimization for the Google Assistant, it is the clear choice for an application of this scale.
                 <br><br>
 
             Additionally, Google's <a href="https://firebase.google.com">Firebase database</a> was another natural selection for Let's Talk Journaling's database. It's instantaenous and reliable nature means that end users have lightning fast access to logged conversations while not having to worry about a service that is spotty or unresponsive.
