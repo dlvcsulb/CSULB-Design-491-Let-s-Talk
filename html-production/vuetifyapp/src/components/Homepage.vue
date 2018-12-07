@@ -2,7 +2,7 @@
   <v-container fluid text-xs-center>
     <v-layout column align-center>
       <v-flex>
-        <h1 align="center">About Let's Talk</h1>
+        <h1 align="center">About Let's Talk Journaling</h1>
           <p>
             <br>Let’s Talk Journaling is an Action for the Google Assistant that users can utilize to screen for depression.
             The program uses the Google Dialogflow programming interface, which allows users to interact with their device through voice or
