@@ -1,0 +1,39 @@
+{
+  "id": "63ce653d-484d-4e46-8341-c3d463f955dd",
+  "name": "GoToSecurityFb",
+  "auto": true,
+  "contexts": [
+    "GoToSecurity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "GoToSecurity-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, #Intro.name. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")",
+            "1/3: Everything you tell me is private and stored securely.\nWe will not share with anyone that you are using Let\u0027s Talk or any information that you provide to Let\u0027s Talk. \n\nIs this ok with you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543463504,
+  "fallbackIntent": true,
+  "events": []
+}

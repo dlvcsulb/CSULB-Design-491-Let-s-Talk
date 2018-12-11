@@ -1,0 +1,40 @@
+{
+  "id": "5c7e21e0-ecb3-4795-9dee-7c288c6bfa04",
+  "parentId": "384907bd-02c0-476e-8e91-71092f286568",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "GoToSecurity2",
+  "auto": true,
+  "contexts": [
+    "yesSecurity",
+    "GoToSecurity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no.Intro-no-yes.GoToSecurity-yes",
+      "affectedContexts": [
+        {
+          "name": "GoToSecurity2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "2/3: Let\u0027s Talk will check-in with you to ask you about your thoughts, feelings and what\u0027s going on in your life.\n\nThis data will be used to respond to you and personalize your experience with Let\u0027s Talk.\n\nIs this ok?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543460854,
+  "fallbackIntent": false,
+  "events": []
+}

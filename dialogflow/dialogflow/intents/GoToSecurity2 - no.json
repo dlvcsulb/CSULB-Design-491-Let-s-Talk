@@ -1,0 +1,33 @@
+{
+  "id": "147b8ec7-3f98-4976-bd08-4c886094b733",
+  "parentId": "5c7e21e0-ecb3-4795-9dee-7c288c6bfa04",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "GoToSecurity2 - no",
+  "auto": true,
+  "contexts": [
+    "GoToSecurity2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no.Intro-no-yes.GoToSecurity-yes.GoToSecurity2-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "fe246b54-7b55-44ea-9742-6edcbfe88d63",
+  "parentId": "84e0c958-d163-4c9e-ad24-243481ba46f1",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "SecurityYes - fallback",
+  "auto": false,
+  "contexts": [
+    "SecurityYes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-yes.SecurityYes-fallback",
+      "affectedContexts": [
+        {
+          "name": "SecurityYes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\n1/3: Everything you tell me is private and stored securely.\nWe will not share with anyone that you are using Let\u0027s Talk or any information that you provide to Let\u0027s Talk. \n\n\nIs this ok with you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544062035,
+  "fallbackIntent": true,
+  "events": []
+}

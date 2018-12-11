@@ -1,0 +1,33 @@
+{
+  "id": "940531de-de52-4cb0-be09-65f9692fc046",
+  "parentId": "84e0c958-d163-4c9e-ad24-243481ba46f1",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "SecurityYes - no",
+  "auto": true,
+  "contexts": [
+    "SecurityYes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-yes.SecurityYes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We take our terms and conditions very seriously, and we respectfully cannot continue this conversation. Good bye!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544061895,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "8fe46db0-37d9-4332-919d-31658d2e4e01",
+  "parentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "SecurityNo",
+  "auto": true,
+  "contexts": [
+    "Intro-followup",
+    "Intro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no",
+      "affectedContexts": [
+        {
+          "name": "Intro-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "SecurityNo-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry #Intro.name, but unfortunately we cannot continue until you have agreed to our security conditions.\n\nAre you sure you want to exit before going through some quick security questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543462160,
+  "fallbackIntent": false,
+  "events": []
+}

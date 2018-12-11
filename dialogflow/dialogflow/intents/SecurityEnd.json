@@ -1,0 +1,33 @@
+{
+  "id": "12110d32-d3d9-4203-b2fc-1ba25d982794",
+  "parentId": "9c6f2c3a-f2dc-4772-8449-70a52b80104f",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "SecurityEnd",
+  "auto": true,
+  "contexts": [
+    "GoToSecurity3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no.Intro-no-yes.GoToSecurity-yes.GoToSecurity2-yes.GoToSecurity3-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Perfect ! \n\nWhen ever you\u0027re ready to start journaling simply type, \"Let\u0027s Talk\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543460364,
+  "fallbackIntent": false,
+  "events": []
+}
