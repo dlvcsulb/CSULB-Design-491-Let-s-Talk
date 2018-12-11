@@ -1,0 +1,66 @@
+{
+  "description": "",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "letstalkcsulb-wkmuwt",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "e4fe36f6-eef6-4baa-9e6d-aa829826e9e5",
+      "be562b82-1e5d-4e02-aec1-1528119d76fd",
+      "8e31d6b6-8d3f-438b-9bc3-f0fa1ca5e460",
+      "20d3f8b9-3ab7-40a6-b0db-57c0b0a33662",
+      "940531de-de52-4cb0-be09-65f9692fc046",
+      "c5a6d2df-52d5-4a06-8f95-feb5eed4dc31",
+      "6f35bc1e-a1cf-4d1a-be7b-84727d6e8a7c",
+      "4ab999b4-3e67-4aae-abfc-2bb43b35e12a",
+      "1306626f-8e18-4cf2-9add-b805f93975bb",
+      "e3218f8c-929d-4548-a0e8-f91aa3715876",
+      "b0b18ea5-49b9-4e46-8671-323eb425a6ac",
+      "321b91b5-bdca-43c4-8185-2f3dd851644e",
+      "31d65376-d9d7-4d7e-ae48-051a1d6cad56",
+      "bc4ae7b8-35a4-4bf1-a6ee-e52cfeb874ac",
+      "1c109154-7682-4e68-ab65-ea6ed5c1bdec",
+      "6ab1afbe-82d5-451a-8a74-ec60b263f130",
+      "cdb10232-b1e6-4552-bfdf-e1aff774ff65",
+      "817c028f-2ddb-4a6d-9360-6b2242abc27f",
+      "720524fb-f727-451b-87c7-a6de35cb8055",
+      "bdb16e89-073f-4c79-a3f4-292898e469a7",
+      "72de6f6e-3bf9-4f1a-bec4-dc9938e916d4"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/Los_Angeles",
+  "webhook": {
+    "url": "https://us-central1-letstalkcsulb-wkmuwt.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

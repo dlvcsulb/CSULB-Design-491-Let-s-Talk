@@ -1,0 +1,33 @@
+{
+  "id": "20d3f8b9-3ab7-40a6-b0db-57c0b0a33662",
+  "parentId": "9c6f2c3a-f2dc-4772-8449-70a52b80104f",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "GoToSecurity3 - no",
+  "auto": true,
+  "contexts": [
+    "GoToSecurity3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no.Intro-no-yes.GoToSecurity-yes.GoToSecurity2-yes.GoToSecurity3-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Intro.name,  we take our terms and conditions very seriously, and we respectfully cannot continue this conversation. Good bye!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543463795,
+  "fallbackIntent": false,
+  "events": []
+}

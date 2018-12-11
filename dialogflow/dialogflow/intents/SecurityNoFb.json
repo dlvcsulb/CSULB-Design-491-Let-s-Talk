@@ -1,0 +1,36 @@
+{
+  "id": "8250a24d-9ff2-4288-8c62-e258f9e05335",
+  "name": "SecurityNoFb",
+  "auto": true,
+  "contexts": [
+    "Intro-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Intro-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry, #Intro.name. I didn\u0027t catch what you said.\n\n(Try \"yes\" or \"no\")\n\nUnfortunately we cannot continue until you have agreed to our security conditions.\n\nAre you sure you want to exit before going through some quick security questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543463250,
+  "fallbackIntent": true,
+  "events": []
+}

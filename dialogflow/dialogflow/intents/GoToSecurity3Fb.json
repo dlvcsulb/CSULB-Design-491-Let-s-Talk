@@ -1,0 +1,36 @@
+{
+  "id": "4d7803b7-0916-41da-809e-af5eba8a0807",
+  "name": "GoToSecurity3Fb",
+  "auto": true,
+  "contexts": [
+    "GoToSecurity3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "GoToSecurity3-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry, #Intro.name. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\n3/3: This is not a crisis service or a replacement for a human.\nLet\u0027s Talk is a self-help tool that is not intended to be a medical intervention or replacement for in-person therapy.\n\nDo you understand?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543463929,
+  "fallbackIntent": true,
+  "events": []
+}
