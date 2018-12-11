@@ -1,0 +1,39 @@
+{
+  "id": "e50061d7-a738-4290-a69a-f52697e7a184",
+  "parentId": "2c22aa9d-29c2-4d46-8a20-06c0fee74fec",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - yes - custom - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-yes.LetsTalk-bad-yes-custom.LetsTalk-bad-yes-custom-no",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-yes-custom-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like me to play back your day for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543552703,
+  "fallbackIntent": false,
+  "events": []
+}

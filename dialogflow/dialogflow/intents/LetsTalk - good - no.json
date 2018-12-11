@@ -1,0 +1,37 @@
+{
+  "id": "1306626f-8e18-4cf2-9add-b805f93975bb",
+  "parentId": "2fbe1511-4140-48da-87fc-1bc75657d6f0",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - good - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-good-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-good-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027ll be here, if you need me!",
+            "I\u0027m always ready to chat.",
+            "No problem. Let me know if you think of anything."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543474010,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "Intro",
+  "auto": true,
+  "contexts": [
+    "WelcomeIntent"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Intro",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Intro-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "eb80c031-d6f9-4f68-965b-67693bed425b",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to Let\u0027s Talk, $name!\n\nBefore we go on, my creators need your consent for us to keep chatting.\n\nIt\u0027ll take just a minute. Is that ok with you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544078055,
+  "fallbackIntent": false,
+  "events": []
+}

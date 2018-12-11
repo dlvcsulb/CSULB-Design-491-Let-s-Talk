@@ -1,0 +1,43 @@
+{
+  "id": "f19d86c7-6928-49c6-9de4-647f5c2b143f",
+  "parentId": "cc7ebc21-f925-4284-9480-1804b19c3c1b",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - fallback",
+  "auto": false,
+  "contexts": [
+    "LetsTalk-bad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-fallback",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nWould you like to talk about your day?",
+            "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nWould you like to tell me about your day?",
+            "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nWould you like to journal about it?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543544163,
+  "fallbackIntent": true,
+  "events": []
+}

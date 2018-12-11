@@ -1,0 +1,48 @@
+{
+  "id": "58a1f91e-4573-4660-9f3a-589ae4d5aa7c",
+  "parentId": "a6be6abd-3b7b-4078-89cc-0d5e7b20aba6",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - good - yes - convo - yes - custom",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-good-yes-convo-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-good-yes.LetsTalk-good-yes-custom.LetsTalk-good-yes-convo-yes.LetsTalk-good-yes-convo-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-good-yes-convo-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "77cdc6d8-186a-434d-8045-535f748bd829",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any2",
+          "value": "$any2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m glad you\u0027re sharing so much of your day with me. Thank you!\nLet\u0027s save any more details for another time. \n\nWould you like me to play back your day for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544067496,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "5ab59f9f-c9dc-4dd6-90f0-3233033a3e79",
+  "parentId": "df30af6a-e868-4a60-b484-3a89ad8941cc",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - yes - convo - yes",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-yes-convo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-yes.LetsTalk-bad-no-yes-custom.LetsTalk-bad-no-yes-convo-yes",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-no-yes-convo-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Please, continue...",
+            "Great, because I wanted to hear more...",
+            "Continue, please..."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544064849,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6ab1afbe-82d5-451a-8a74-ec60b263f130",
+  "parentId": "019d1218-f886-41ab-8a5e-cb49d727ca2a",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - yes - convo - no - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-yes-convo-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-yes.LetsTalk-bad-no-yes-custom.LetsTalk-bad-no-yes-convo-no.LetsTalk-bad-no-yes-convo-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It was great chatting with you. Bye!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543547207,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "234e16ef-1f06-4c0f-93a7-ed418242c93e",
+  "parentId": "cc7ebc21-f925-4284-9480-1804b19c3c1b",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - yes",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-yes",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m all ears...",
+            "Please, tell me anything you want to talk about..."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543552215,
+  "fallbackIntent": false,
+  "events": []
+}

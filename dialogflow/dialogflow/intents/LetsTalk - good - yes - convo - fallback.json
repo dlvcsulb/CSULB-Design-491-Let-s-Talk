@@ -1,0 +1,42 @@
+{
+  "id": "b247629f-131d-4daf-97d3-086dbbe585a7",
+  "parentId": "03486a33-1ae7-4c2e-bf6b-b0d55d2319ef",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - good - yes - convo - fallback",
+  "auto": false,
+  "contexts": [
+    "LetsTalk-good-yes-convo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-good-yes.LetsTalk-good-yes-custom.LetsTalk-good-yes-convo-fallback",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-good-yes-convo-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nWould you like to share anything else?",
+            "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nIs there anything else you want to talk about?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543475191,
+  "fallbackIntent": true,
+  "events": []
+}

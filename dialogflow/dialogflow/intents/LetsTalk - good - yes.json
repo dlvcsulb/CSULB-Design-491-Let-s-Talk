@@ -1,0 +1,42 @@
+{
+  "id": "be28f32d-2891-4f70-9ad1-8cfc373a9128",
+  "parentId": "2fbe1511-4140-48da-87fc-1bc75657d6f0",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - good - yes",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-good-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-good-yes",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-good-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great! I\u0027m all ears.",
+            "Go for it! Tell me about your day."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543478066,
+  "fallbackIntent": false,
+  "events": []
+}

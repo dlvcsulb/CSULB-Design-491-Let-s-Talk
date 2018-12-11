@@ -1,0 +1,43 @@
+{
+  "id": "019d1218-f886-41ab-8a5e-cb49d727ca2a",
+  "parentId": "df30af6a-e868-4a60-b484-3a89ad8941cc",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - yes - convo - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-yes-convo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-yes.LetsTalk-bad-no-yes-custom.LetsTalk-bad-no-yes-convo-no",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-no-yes-convo-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you for sharing. I hope this makes you feel a bit better.\n\nWould you like me to play back your day for you?",
+            "Thank you so much for sharing.\n\nWould you like me to play back your day for you?",
+            "I hope to hear from you again soon.\n\nWould you like me to play back your day for you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543552533,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "31d65376-d9d7-4d7e-ae48-051a1d6cad56",
+  "parentId": "aa18d1b5-cad3-4ab6-87cb-101a17ee334d",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "As much as this saddens me, your wish is my command.\nPlease come back at any time.\n\nGood bye.",
+            "Please come back when every you are ready.\n\nGood bye."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543543363,
+  "fallbackIntent": false,
+  "events": []
+}

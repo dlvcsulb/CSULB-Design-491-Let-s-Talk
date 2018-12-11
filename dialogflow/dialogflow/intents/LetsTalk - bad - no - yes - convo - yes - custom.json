@@ -1,0 +1,48 @@
+{
+  "id": "beb1aab3-1909-419d-b7af-de51a9f4e4b0",
+  "parentId": "5ab59f9f-c9dc-4dd6-90f0-3233033a3e79",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - yes - convo - yes - custom",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-yes-convo-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-yes.LetsTalk-bad-no-yes-custom.LetsTalk-bad-no-yes-convo-yes.LetsTalk-bad-no-yes-convo-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-no-yes-convo-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3c284f86-f19f-486f-ae6b-426c72f0a726",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any2",
+          "value": "$any2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m glad you\u0027re sharing so much of your day with me. Thank you!\nLet\u0027s save any more details for another time. \n\nWould you like me to play back your day for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544062988,
+  "fallbackIntent": false,
+  "events": []
+}

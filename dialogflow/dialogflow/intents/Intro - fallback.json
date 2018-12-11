@@ -1,0 +1,45 @@
+{
+  "id": "0bbf8227-b71e-4656-8934-5afba139f266",
+  "parentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "Intro - fallback",
+  "auto": false,
+  "contexts": [
+    "Intro",
+    "Intro-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-fallback",
+      "affectedContexts": [
+        {
+          "name": "intro",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Intro-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry, #Intro.name. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nBefore we go on, my creators need your consent for us to keep chatting. It\u0027ll take just a minute. Is that ok with you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543541176,
+  "fallbackIntent": true,
+  "events": []
+}

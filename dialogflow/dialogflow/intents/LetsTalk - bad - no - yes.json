@@ -1,0 +1,42 @@
+{
+  "id": "46bbbdc9-e86b-4273-9d2f-31e89860b349",
+  "parentId": "aa18d1b5-cad3-4ab6-87cb-101a17ee334d",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no - yes",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no.LetsTalk-bad-no-yes",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-no-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Please, talk about anything you want.",
+            "Please, speak your mind."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543552344,
+  "fallbackIntent": false,
+  "events": []
+}

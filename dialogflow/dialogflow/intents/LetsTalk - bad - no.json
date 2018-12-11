@@ -1,0 +1,39 @@
+{
+  "id": "aa18d1b5-cad3-4ab6-87cb-101a17ee334d",
+  "parentId": "cc7ebc21-f925-4284-9480-1804b19c3c1b",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - no",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-no",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I really think it would help If we just talked a little...\n\nDo you want to talk?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543552282,
+  "fallbackIntent": false,
+  "events": []
+}

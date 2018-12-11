@@ -1,0 +1,42 @@
+{
+  "id": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "LetsTalk",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "LetsTalk-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I would enjoy a conversation! How are you doing today?",
+            "Yes, let\u0027s talk! How are you doing today?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544063398,
+  "fallbackIntent": false,
+  "events": []
+}

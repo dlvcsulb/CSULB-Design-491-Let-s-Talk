@@ -1,0 +1,33 @@
+{
+  "id": "be562b82-1e5d-4e02-aec1-1528119d76fd",
+  "parentId": "8fe46db0-37d9-4332-919d-31658d2e4e01",
+  "rootParentId": "09bb945f-8b88-48f8-8fb2-f7dd21b0e894",
+  "name": "IntroExit",
+  "auto": true,
+  "contexts": [
+    "Intro-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Intro.Intro-no.Intro-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Unfortunately I cannot continue to have a conversation with you. Good bye!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544061719,
+  "fallbackIntent": false,
+  "events": []
+}

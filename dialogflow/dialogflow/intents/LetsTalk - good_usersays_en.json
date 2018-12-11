@@ -1,0 +1,254 @@
+[
+  {
+    "id": "da1513d5-8055-43d7-b235-340d5b231afd",
+    "data": [
+      {
+        "text": "kind of great",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544078631
+  },
+  {
+    "id": "fe29a564-e98a-4c9c-ac38-8cb844d3f555",
+    "data": [
+      {
+        "text": "tiptop",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "edbfc0e7-b87a-48d1-9b0d-2011a7ab71ba",
+    "data": [
+      {
+        "text": "superior",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "0975e884-5232-4734-9f84-f3b04d8a5016",
+    "data": [
+      {
+        "text": "superb",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "e102a301-b37f-4064-b000-ba3ec6f9f533",
+    "data": [
+      {
+        "text": "premium",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "afd9334d-5319-4e80-8c6c-ececfa6bafa7",
+    "data": [
+      {
+        "text": "peachy",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "817573b2-7a34-4370-8da1-6d12fdb438ec",
+    "data": [
+      {
+        "text": "outstanding",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "415e7775-5203-48bd-82d6-78ab034ab7fa",
+    "data": [
+      {
+        "text": "fine",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "8a2354dc-3c25-4593-a5f1-3be7723d1156",
+    "data": [
+      {
+        "text": "excellent",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544054556
+  },
+  {
+    "id": "2b76a912-00e7-43ce-8f8e-dd313072bfe0",
+    "data": [
+      {
+        "text": "not too bad",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543748725
+  },
+  {
+    "id": "bf8c7a5c-25e2-476f-b677-47d39cca7142",
+    "data": [
+      {
+        "text": "amazing",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543541793
+  },
+  {
+    "id": "5cf1e068-8f29-4829-b62d-e93540049918",
+    "data": [
+      {
+        "text": "perfect",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543541793
+  },
+  {
+    "id": "55659d0f-ffce-4e40-9d4f-bc4a8e1050b2",
+    "data": [
+      {
+        "text": "super",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543541793
+  },
+  {
+    "id": "15adf58b-19f0-41c0-a2e2-f07d4bdb7033",
+    "data": [
+      {
+        "text": "fantastic",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543541793
+  },
+  {
+    "id": "889a4dbe-277c-4dec-a52f-708108885a96",
+    "data": [
+      {
+        "text": "ok",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543473288
+  },
+  {
+    "id": "82572394-d976-4df5-8439-8eaff1d0c4c8",
+    "data": [
+      {
+        "text": "great",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543473288
+  },
+  {
+    "id": "9e7b46b5-265f-40cc-88f1-6f998f698d7a",
+    "data": [
+      {
+        "text": "not so bad",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543473288
+  },
+  {
+    "id": "fb347c5e-a069-469f-9858-63b70ef6a2a0",
+    "data": [
+      {
+        "text": "good",
+        "alias": "feeling",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543473288
+  }
+]

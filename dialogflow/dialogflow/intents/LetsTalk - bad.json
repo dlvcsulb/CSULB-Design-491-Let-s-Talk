@@ -1,0 +1,54 @@
+{
+  "id": "cc7ebc21-f925-4284-9480-1804b19c3c1b",
+  "parentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad",
+  "auto": true,
+  "contexts": [
+    "LetsTalk",
+    "LetsTalk-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "894dc85e-a3b5-45f1-a027-4fd5baa92fa1",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "feeling2",
+          "value": "$feeling2",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Would you like to talk about your day?",
+            "Would you like to tell me about your day?",
+            "Would you like to journal about it?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544063983,
+  "fallbackIntent": false,
+  "events": []
+}

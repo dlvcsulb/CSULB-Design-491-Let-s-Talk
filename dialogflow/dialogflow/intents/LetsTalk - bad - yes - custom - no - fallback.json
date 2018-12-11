@@ -1,0 +1,39 @@
+{
+  "id": "29821ff1-5da9-4768-b67b-3c0af6945031",
+  "parentId": "e50061d7-a738-4290-a69a-f52697e7a184",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - yes - custom - no - fallback",
+  "auto": false,
+  "contexts": [
+    "LetsTalk-bad-yes-custom-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-yes.LetsTalk-bad-yes-custom.LetsTalk-bad-yes-custom-no.LetsTalk-bad-yes-custom-no-fallback",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-yes-custom-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry. I didn\u0027t understand what you said.\n\n(Try \"yes\" or \"no\")\n\nWould you like me to play back your day for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543549596,
+  "fallbackIntent": true,
+  "events": []
+}

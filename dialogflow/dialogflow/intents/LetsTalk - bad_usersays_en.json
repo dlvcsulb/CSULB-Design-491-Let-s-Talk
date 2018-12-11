@@ -1,0 +1,198 @@
+[
+  {
+    "id": "273fbbc2-4178-4b9a-8d6d-a129b937d179",
+    "data": [
+      {
+        "text": "horrible",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544063983
+  },
+  {
+    "id": "5e6de248-ca8a-4f41-bddf-f8041f5308ec",
+    "data": [
+      {
+        "text": "bummy",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "e8fbb514-e995-49e4-876f-8f3864d6d427",
+    "data": [
+      {
+        "text": "I want to die",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "b2158bd3-0625-4ca9-9d05-7a5b78498faf",
+    "data": [
+      {
+        "text": "useless",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "fc34253b-d5be-4ece-804a-5fff6a9a3abf",
+    "data": [
+      {
+        "text": "godawful",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "d8c336f6-2e04-47f0-ab08-aa6982227ce2",
+    "data": [
+      {
+        "text": "crummy",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "b6bdb587-8fe1-4277-b6bb-7deb323417c7",
+    "data": [
+      {
+        "text": "rotten",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "f645b6e9-03f2-4c98-b962-cc2ce9610770",
+    "data": [
+      {
+        "text": "awful",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "d9f07eaf-a2d1-4451-9226-2afbe0cee1de",
+    "data": [
+      {
+        "text": "miserable",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "a2c50ff0-7ffd-4244-b943-4042c79b7d41",
+    "data": [
+      {
+        "text": "terrible",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "ded878e9-d7e2-48d8-bb49-ced77e2eebe9",
+    "data": [
+      {
+        "text": "not good",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "36431683-4c9a-4b6a-a14a-d8e8d2b84185",
+    "data": [
+      {
+        "text": "not too good",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542442
+  },
+  {
+    "id": "4d6eb76c-4912-45aa-827f-dc9243f93a3d",
+    "data": [
+      {
+        "text": "not so good",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542279
+  },
+  {
+    "id": "fc8b2c0a-2c29-43a2-97cf-ee53afd704db",
+    "data": [
+      {
+        "text": "bad",
+        "alias": "feeling2",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543542279
+  }
+]

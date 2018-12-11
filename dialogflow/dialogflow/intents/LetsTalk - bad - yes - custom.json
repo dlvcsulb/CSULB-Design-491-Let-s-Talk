@@ -1,0 +1,51 @@
+{
+  "id": "2c22aa9d-29c2-4d46-8a20-06c0fee74fec",
+  "parentId": "234e16ef-1f06-4c0f-93a7-ed418242c93e",
+  "rootParentId": "d8f8191e-27b4-4687-91fb-84b343e411b6",
+  "name": "LetsTalk - bad - yes - custom",
+  "auto": true,
+  "contexts": [
+    "LetsTalk-bad-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LetsTalk.LetsTalk-custom.LetsTalk-bad-yes.LetsTalk-bad-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "LetsTalk-bad-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 4
+        }
+      ],
+      "parameters": [
+        {
+          "id": "33169bff-1313-4ebf-af2e-9afc9433e823",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Is there anything else you want to talk about?",
+            "Would you like to share anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544063543,
+  "fallbackIntent": false,
+  "events": []
+}
