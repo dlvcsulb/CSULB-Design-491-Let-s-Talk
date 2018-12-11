@@ -19,7 +19,7 @@ Let's Talk is available everywhere Google Assistant is - Google Home, Android, i
 
 ## Development
 
-Let's Talk is written primarily in JSON using the Dialogflow development console. The website is written with HTML, CSS, and Vuetify. Let's Talk communicates with MongoDB.
+Let's Talk is written primarily in JSON using the Dialogflow development console. The website is written with HTML, CSS, and Vuetify. Let's Talk communicates with Firebase Real-time Database to store data.
 
 ## Contact
 
